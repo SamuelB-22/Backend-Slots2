@@ -6,6 +6,13 @@ const app = express();
 
 export default app;
 app.use(express.json());
-app.use("/", userRoutes)
+
+app.use(cors({ 
+    origin: '*', 
+
+ }))
+
+ app.use("/", userRoutes)
+
 
 
