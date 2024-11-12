@@ -3,7 +3,7 @@ import { Sequelize } from 'sequelize';
 export const sequelize = new Sequelize(
   'slot',
   'root',
-  'Elefante1.',
+  '12345678.',
   {
     host: 'localhost',
     dialect: 'mysql' 
